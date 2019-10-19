@@ -4,6 +4,6 @@ node {
     }
 
     stage('run') {
-        bat "./python test.py"
+        bat "python test.py"
     }
 }
